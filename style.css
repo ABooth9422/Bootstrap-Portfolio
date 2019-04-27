@@ -1,26 +1,6 @@
 .page {
     background-image: url(images/dynamic-style.png);
-
     height: 100%;
-    overflow: hidden;
-    margin-top:20px;
+    overflow: auto;
     
 }
-
-/* @media screen and (max-width: 980px) {
-.page{
-    width:900px;
-}
-}
-
-@media screen and (max-width: 768px) {
-.page{
-    width:600px;
-}
-}
-
-@media screen and (max-width: 640px) {
-.page{
-    width:540px;
-}
-} */
