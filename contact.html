@@ -21,12 +21,16 @@
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/kaiju.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            Aaron Booth
+        </a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#target"
             aria-controls="target" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="target">
-            <span class="navbar-brand mb-0 h1">Aaron Booth</span>
+            
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">About me</a>
@@ -42,25 +46,28 @@
     </nav>
 </header>
 <div class="page">
+    <br>
     <form>
         <div class="d-flex justify-content-center">
             <div class="form-group row">
                 <label for="exampleFormControlInput1" class="col-md-2 col-form-label">Name</label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                    <input type="text" class="form-control" size="35" id="exampleFormControlInput1" placeholder="Your Name">
                 </div>
             </div>
         </div>
         <div class="d-flex justify-content-center">
             <div class="form-group row">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-10">
+                <input type="email" class="form-control" size="35" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
             </div>
         </div>
         <div class="d-flex justify-content-center">
             <div class="form-group row">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" size="35" id="exampleFormControlTextarea1" rows="6" cols="40"></textarea>
             </div>
         </div>
         <div class="d-flex justify-content-center">
