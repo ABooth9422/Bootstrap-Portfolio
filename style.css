@@ -1,7 +1,26 @@
-.page{
-    background-image:url(images/dynamic-style.png);
+.page {
+    background-image: url(images/dynamic-style.png);
     width: 960px;
     margin: 0 auto 0 auto;
     height: 100%;
     overflow: hidden;
+    justify-content: center;
+}
+
+@media screen and (max-width: 980px) {
+.page{
+    width:900px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.page{
+    width:600px;
+}
+}
+
+@media screen and (max-width: 640px) {
+.page{
+    width:540px;
+}
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,15 +8,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <title>Index</title>
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#target">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#target"
+            aria-controls="target" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="target">
-            <a class="navbar-brand" href="#">Aaron Booth</a>
+            <span class="navbar-brand mb-0 h1">Aaron Booth</span>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About me</span></a>
@@ -30,60 +41,82 @@
         </div>
     </nav>
 </header>
-<br>
+
 
 <div class="page">
+    <br>
 
     <body>
-
-        <div class="row">
-            <div class="col-md-5">
-                <img src="images/student.jpg" width="400px" height="200px" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-md-6">
-                <p>My name is Aaron Booth. I am 30 years old and I have a wife and three kids I currently work a full
-                    time
-                    job
-                    and am enrolled in this class. I also am a part-time crossfit coach It has been my dream to always
-                    be a
-                    programmer, but when I was 20 years old I had my first child and being a new parent with full time
-                    school
-                    and a full time job was overwhelming. I had no choice but to commit to providing for my family by
-                    working my
-                    way up in retail.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/student.jpg" width="400px" height="200px" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-md-6">
+                    <p>My name is Aaron Booth. I am 30 years old and I have a wife and three kids I currently work a
+                        full
+                        time
+                        job
+                        and am enrolled in this class. I also am a part-time crossfit coach It has been my dream to
+                        always
+                        be a
+                        programmer, but when I was 20 years old I had my first child and being a new parent with full
+                        time
+                        school
+                        and a full time job was overwhelming. I had no choice but to commit to providing for my family
+                        by
+                        working my
+                        way up in retail. Every year I try to stick by a new years resolution, previously it was going
+                        from 230lb to 160. </p>
+                </div>
             </div>
         </div>
-        <div class="row-justify-content-center">
-            <div class="col-lg-12">
-                <p>Every year I try to stick by a new years resolution, previously it was going from 230lb to 160. I
-                    have
-                    always dreamed of going back to school, but was always too scared to make the commitment. I heard
-                    about
-                    coding bootcamp a few years ago from a friend of mine who mastered in robotics at nc state. It was
+        <div class="row ml-auto">
+            <div class="col-sm-4">
+                <p> I have always dreamed of going back to school, but was always too scared to make the commitment.I
+                    heard about
+                    coding bootcamp a few years ago from a friend of mine who mastered in robotics at nc state. </p>
+            </div>
+            <div class="col-sm-4">
+                <p>It was
                     very
                     preliminary and bootcamps were just starting to be established and recognized so I was very hesitant
                     to
                     commit to something like that without knowing if a bootcamp program could get me the career I've
                     dreamed
-                    of. This year I told myself I finally wanted to get out of retail and pursue other things; Although
+                    of.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>This year I told myself I finally wanted to get out of retail and pursue other things; Although
                     retail was the only thing I have had professional experience with.</p>
             </div>
         </div>
-        <div class="row-justify-content-center">
-            <div class="col-lg-12">
-                <p>I joined a crossfit gym a few years ago and with that you get to know a vast variety of people. One
-                    of my
-                    friends that I met she works at bank of america in a tech division I told her I had previous
-                    interest in
-                    programming and that i pursued it before i had kids. When I talked to her she told me about the UNCC
-                    coding bootcamp program and that they hire from that and its a really good program. With her telling
-                    me
-                    that it reaffirmed what my friend had told me about bootcamps a few years ago it just clicked. I
-                    knew I
-                    had to do this for myself and my family.</p>
-            </div>
-        </div>
-    </body>
+
+<div class="row-justify-content-center">
+    <div class="col-lg-12">
+        <p>I joined a crossfit gym a few years ago and with that you get to know a vast variety of people. One
+            of my
+            friends that I met she works at bank of america in a tech division I told her I had previous
+            interest in
+            programming and that i pursued it before i had kids. When I talked to her she told me about the UNCC
+            coding bootcamp program and that they hire from that and its a really good program. With her telling
+            me
+            that it reaffirmed what my friend had told me about bootcamps a few years ago it just clicked. I
+            knew I
+            had to do this for myself and my family.</p>
+    </div>
 </div>
+</body>
+<footer>
+    <div class="card-footer fixed-bottom text-white bg-dark mb-0">
+        <div class="d-flex justify-content-center">
+            <small class="img"><a href="https://www.instagram.com/booth4397/"><img src="images/instagram.jpg" width="40"
+                        height="40"></a></small>
+            <small class="img"><a href="https://www.facebook.com/aaron.booth.10048"><img src="images/facebook.png"
+                        width="40" height="40"></a></small>
+        </div>
+    </div>
+</footer>
+
 
 </html>
