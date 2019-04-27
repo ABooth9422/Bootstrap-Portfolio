@@ -1,13 +1,13 @@
 .page {
     background-image: url(images/dynamic-style.png);
-    width: 960px;
-    margin: 0 auto 0 auto;
+
     height: 100%;
     overflow: hidden;
+    margin-top:20px;
     
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 .page{
     width:900px;
 }
@@ -23,4 +23,4 @@
 .page{
     width:540px;
 }
-}
+} */
