@@ -24,7 +24,7 @@
 <body class="mb-5 text-white">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/kaiju.png" width="40" height="40" class="d-inline-block align-top" alt="">
                 Aaron Booth
             </a>
@@ -35,14 +35,17 @@
             <div class="collapse navbar-collapse" id="target">
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">About me</a>
+                    </li>
+                    <li class="nav-item active">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -52,39 +55,18 @@
     <div class="page mx-5 my-5">
         <h1 class="font-weight-bold">Portfolio</h1>
         <hr>
-        <style>
-            hr {
-                border-color: white;
-                border-width: 4px;
-            }
 
-            h3 {
-                text-align: left;
-                font-weight: bold;
-            }
-
-            h2 {
-                background-color:black;
-                opacity:0.50;
-               text-align:center;
-               font-weight:bold;
-                width: 400px;
-                border-radius:30px;
-                position:absolute;
-                bottom:0px;
-            }
-        </style>
         <div class="d-flex justify-content-center my-1">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <a href=" https://abooth9422.github.io/GifTastic/" target="_blank"><img 
+                    <a href=" https://abooth9422.github.io/GifTastic/" target="_blank"><img class="rounded"
                             src="https://media2.giphy.com/media/yFK1Kfe8cRwGY/200_d.gif" width="400px"
                             height="200px"></a>
                     <h2>Giftastic!</h2>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <a href="https://abooth9422.github.io/TriviaGame/" target="_blank"><img src="images/videogame.jpg"
-                            width="400px" height="200px"></a>
+                    class="rounded" width="400px" height="200px"></a>
                     <h2>Trivia-Game</h2>
                 </div>
             </div>
@@ -93,12 +75,12 @@
             <div class="row mt-3 mb-2">
                 <div class="col-md-6 col-sm-12 mt">
                     <a href="https://abooth9422.github.io/unit-4-game/" target="_blank"><img src="images/crystal.png"
-                            width="400px" height="200px"></a>
+                        class="rounded" width="400px" height="200px"></a>
                     <h2>Crystal Game</h2>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <a href="https://abooth9422.github.io/Word-Guess/"><img 
-                            src="../Word-Guess/assets/images/avengers.jpg" width="400px" height="200px"></a>
+                        class="rounded" src="../Word-Guess/assets/images/avengers.jpg" width="400px" height="200px"></a>
                     <h2>Word-guess</h2>
                 </div>
             </div>
@@ -106,12 +88,12 @@
         <div class="d-flex justify-content-center mb-5">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <a href="https://abooth9422.github.io/TrainScheduler/" target="_blank"><img src="images/train.jpg"width="400px" height="200px"></a>
+                    <a href="https://abooth9422.github.io/TrainScheduler/" target="_blank"><img src="images/train.jpg"width="400px" height="200px" class="rounded"></a>
                     <h2>TrainScheduler</h2>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     
-                    <a href="https://abooth9422.github.io/Project1/" label="Project1" target="_blank"><img src="../Project1/images/background.jpg"width="400px" height="200px"></a>
+                    <a href="https://abooth9422.github.io/Project1/" label="Project1" target="_blank"><img src="../Project1/images/background.jpg"width="400px" height="200px"class="rounded"></a>
                     <h2>Project1</h2>
                 </div>
             </div>
@@ -120,7 +102,7 @@
     </div>
 
     <footer>
-        <div class="card-footer rounded fixed-bottom text-white bg-dark">
+        <div class="card-footer rounded fixed-bottom text-white bg-dark" id="footFix">
             <div class="d-flex justify-content-center">
                 <small class="img mx-2 "><a href="https://www.instagram.com/booth4397/"><img class ="rounded" src="images/instagram.jpg"
                             width="40" height="40"></a></small>
@@ -128,6 +110,8 @@
                             width="40" height="40"></a></small>
                             <small class="img mx-2"><a href="https://github.com/ABooth9422"><img class ="rounded" src="../Project1/images/git.png"
                                 width="40" height="40"></a></small>
+                                <small class="img mx-2"><a href="https://www.linkedin.com/in/aaron-booth-48998013a"><img class ="rounded" src="images/linked.png"
+                                    width="40" height="40"></a></small>
             </div>
         </div>
     </footer>
