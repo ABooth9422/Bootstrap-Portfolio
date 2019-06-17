@@ -20,7 +20,15 @@ h3 {
     text-align: left;
     font-weight: bold;
 }
-
+.modal-content{
+  
+    opacity:0.90;
+    background-color:steelblue;
+    font-weight:bold;
+    width:400px fit-content;
+  
+  
+  }
 h2 {
   
    text-align:center;

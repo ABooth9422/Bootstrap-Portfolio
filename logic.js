@@ -3,6 +3,7 @@ $(document).ready(function(){
    mainScreen();
    portfolio();
    contact();
+   source();
     
 })
 
@@ -40,3 +41,19 @@ function contact(){
     $("#mainPage").hide();
 })
 }
+
+function source(){
+    $(".source").on("click",function(){
+   $("#modalRow").empty()
+    $(this).attr("data-target",".modalText")
+    $(this).attr("data-toggle","modal")
+    var data =$(this).data("link")
+    var content=$("<p>")
+    console.log(data)
+    content.text(data)
+    content.appendTo("#modalRow")
+})
+}
+
+// image.attr("data-target", ".modalText")
+//image.attr("data-toggle", "modal")
