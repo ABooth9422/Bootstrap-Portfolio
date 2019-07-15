@@ -44,7 +44,7 @@ function contact(){
 
 function source(){
     $(".source").on("click",function(){
-   $("#modalRow").empty()
+    $("#modalRow").empty()
     $(this).attr("data-target",".modalText")
     $(this).attr("data-toggle","modal")
     var data =$(this).data("link")
@@ -58,5 +58,3 @@ function source(){
 })
 }
 
-// image.attr("data-target", ".modalText")
-//image.attr("data-toggle", "modal")

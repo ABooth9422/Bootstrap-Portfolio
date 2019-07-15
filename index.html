@@ -191,13 +191,14 @@
                 <h1 class="font-weight-bold">Contact</h1>
                 <hr>
         
-                <form>
+                
+                    <form action="https://formspree.io/abooth9422@gmail.com" method="POST">
                     <div class="d-flex justify-content-center">
                         <div class="form-group row">
-                            <form action="soccerking60@gmail.com" method="post" enctype="text/plain">
+                            
                                 <label for="exampleFormControlInput1" class="col-md-2 col-form-label">Name</label>
                                 <div class="col-md-10">
-                                    <input type="text" class="form-control" size="35" id="exampleFormControlInput1"
+                                    <input type="text" name="name" class="form-control" size="35" id="exampleFormControlInput1"
                                         placeholder="Your Name">
                                 </div>
                         </div>
@@ -206,7 +207,7 @@
                         <div class="form-group row">
                             <label for="exampleFormControlInput1" class="col-md-2 col-form-label">Email</label>
                             <div class="col-md-10">
-                                <input type="email" class="form-control" size="35" id="exampleFormControlInput1"
+                                <input type="email" name="email" class="form-control" size="35" id="exampleFormControlInput1"
                                     placeholder="name@example.com">
                             </div>
                         </div>
@@ -214,14 +215,15 @@
                     <div class="d-flex justify-content-center">
                         <div class="form-group row">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" size="35" id="exampleFormControlTextarea1" rows="6"
+                        
+                            <textarea class="form-control" name="message" size="35" id="exampleFormControlTextarea1" rows="6"
                                 cols="40"></textarea>
                         </div>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-lg btn-dark mb-2">Submit</button>
+                        <button input type="submit" value="Send" class="btn btn-lg btn-dark mb-2">Submit</button>
                     </div>
-        
+                </form>
         
             </div>
             <div class="modal fade modalText" id="modalSource" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
@@ -242,7 +244,7 @@
             </div>
         </div>
      </div>   
-            </form>
+            
     <script src="logic.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
