@@ -4,6 +4,7 @@ $(document).ready(function(){
    portfolio();
    contact();
    source();
+   details();
     
 })
 
@@ -56,5 +57,23 @@ function source(){
     content.text(data)
     content.appendTo("#modalRow")
 })
+}
+function details(){
+    $(".details").on("click",function(){
+        $("#modalRow").empty()
+        var modal=$("#modalRow")
+        modal.addClass("p-5")
+        $(this).attr("data-target",".modalText")
+        $(this).attr("data-toggle","modal")
+        var data=$(this).data("details")
+        console.log(data)
+        var heading=$("<h1>")
+        heading.css("text-decoration","underline")
+        heading.text("Project Details")
+        heading.addClass("mb-3")
+        var details=$("<p>")
+        details.text(data)
+        modal.append(heading,details)
+    })
 }
 
