@@ -60,20 +60,32 @@ function source(){
 }
 function details(){
     $(".details").on("click",function(){
+        var tech=$(this).data("technologies")
+        techArray=tech.split(",")
         $("#modalRow").empty()
         var modal=$("#modalRow")
         modal.addClass("p-5")
         $(this).attr("data-target",".modalText")
         $(this).attr("data-toggle","modal")
         var data=$(this).data("details")
-        console.log(data)
         var heading=$("<h1>")
+        var techHead=$("<h3>")
+        techHead.text("Technologies used")
+        var ul=$("<ul>")
         heading.css("text-decoration","underline")
         heading.text("Project Details")
         heading.addClass("mb-3")
         var details=$("<p>")
         details.text(data)
-        modal.append(heading,details)
+        modal.append(heading,details,techHead)
+        techHead.append(ul)
+        techArray.forEach(element => {
+            var li=$("<li>")
+            li.text(element)
+            li.css("text-decoration","none")
+            li.appendTo(techHead)
+        });
+        
     })
 }
 

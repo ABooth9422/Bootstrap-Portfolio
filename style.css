@@ -14,11 +14,16 @@ body{
 hr {
     border-color: white;
     border-width: 4px;
+    box-shadow:black 3px 3px 3px;
+}
+h1{
+    text-shadow:whitesmoke 10px 10px 10px;
 }
 
 h3 {
     text-align: left;
     font-weight: bold;
+    text-decoration:underline;
 }
 .modal-content{
   
