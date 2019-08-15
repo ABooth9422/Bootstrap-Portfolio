@@ -46,6 +46,7 @@ function contact(){
 function source(){
     $(".source").on("click",function(){
     $("#modalRow").empty()
+    $("#modalRow").addClass("p-5")
     $(this).attr("data-target",".modalText")
     $(this).attr("data-toggle","modal")
     var data =$(this).data("link")
