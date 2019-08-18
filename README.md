@@ -12,7 +12,17 @@
 ## Usage
 
 ```sh
-Follow the hyperlinks within the page to navigate to options pertaining about me. There is a contact page where you can submit a form and I can reach out to you after you submit the form. There is a resume tab which will download my resume directly to your local device. There also is an about me section which I give a brief summary of my work history and technologies that I have utilized. In the page I have put a footer at the bottom of the page showcasing links to my social media including linked in and github for professional references.
+Follow the hyperlinks within the page to navigate to options pertaining about me.
+
+There is a contact page where you can submit a form and I can reach out to you after you submit the form. 
+
+There is a resume tab which will download my resume directly to your local device. 
+
+There also is an about me section which I give a brief summary of my work history and technologies that I have utilized. 
+
+In the page I have put a footer at the bottom of the page showcasing links to my social media including linked in and github for
+
+professional references.
 ```
 
 ## Author
@@ -23,7 +33,9 @@ Follow the hyperlinks within the page to navigate to options pertaining about me
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ABooth9422/abooth9422.github.io/issues).
+Contributions, issues and feature requests are welcome!<br />
+
+Feel free to check [issues page](https://github.com/ABooth9422/abooth9422.github.io/issues).
 
 ## Show your support
 
