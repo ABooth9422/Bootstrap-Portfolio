@@ -71,6 +71,7 @@ function details(){
         var data=$(this).data("details")
         var heading=$("<h1>")
         var techHead=$("<h3>")
+        techHead.css("text-decoration","underline")
         techHead.text("Technologies used")
         var ul=$("<ul>")
         heading.css("text-decoration","underline")
@@ -83,7 +84,6 @@ function details(){
         techArray.forEach(element => {
             var li=$("<li>")
             li.text(element)
-            li.css("text-decoration","none")
             li.appendTo(techHead)
         });
         
