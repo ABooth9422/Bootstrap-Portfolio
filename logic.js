@@ -7,7 +7,23 @@ $(document).ready(function(){
    details();
     
 })
+$("#inLink").on("click",function(){
+    $("#inLink").addClass("active")
+    $("#contactLink").removeClass("active")
+    $("#mainLink").removeClass("active")
+    $("#portfolio").show()
+    $("#mainPage").hide();
+    $("#contact").hide(); 
+})
 
+$("#connect").on("click",function(){
+    $("#contactLink").addClass("active")
+    $("#mainLink").removeClass("active")
+    $("#portLink").removeClass("active")
+    $("#contact").show();
+    $("#portfolio").hide();
+    $("#mainPage").hide();
+})
 function load(){
     $("#portfolio").hide();
     $("#contact").hide();
